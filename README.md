@@ -14,14 +14,14 @@ conda env create -f python37.yaml
 
 ```python
 python run-search.py --DataPth ./data/feature_selection_preprocessed_data.csv --estimator gbt --learning-rate 0.1 \
---max-depth 2 --n-estimators 70 --patience 5              
+--max-depth 2 --n-estimators 70 --patience 50              
 ```
 
 ## eXtreme Gradient Boosting (XGB)
 
 ```python
 python run-search.py --DataPth ./data/feature_selection_preprocessed_data.csv --estimator xgb --learning-rate 0.1 \
---max-depth 2 --n-estimators 70 --patience 5              
+--max-depth 2 --n-estimators 70 --patience 50          
 ```
 
 ## Decision Tree (DT)
