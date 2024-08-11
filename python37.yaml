@@ -98,4 +98,5 @@ dependencies:
       - seaborn==0.12.2
       - spacepy==0.6.0
       - typing-extensions==4.7.1
+      - xgboost==1.6.2
 prefix: /opt/conda/envs/python37
